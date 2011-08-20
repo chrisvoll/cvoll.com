@@ -13,7 +13,7 @@ html {
 
 section {
 	position:       absolute;
-	top:            50%;
+	bottom:         50%;
 	left:           50%;
 	right:           0%;
 	z-index:        101;
@@ -22,7 +22,7 @@ section {
 	font-size:      30px;
 	font-weight:    100;
 
-	margin:        -70px 0 0;
+	margin:         0 0 -40px;
 	padding:        20px 25px;
 
 	border-bottom:	3px solid #000;
