@@ -1,0 +1,47 @@
+body {
+	margin:			    0;
+	font-family:	  "proxima-nova-1", "proxima-nova-2", "helvetica neue", helvetica, sans-serif;
+}
+
+html {
+  background:     #EFEFEF;
+	background:    -webkit-gradient(radial, 50% 0, 500, 50% 0, 40, from(#EFEFEF), to(#FFFFFF));
+	background:    -moz-radial-gradient(50% 0 45deg, circle farthest-side, #FFF 0%, #EFEFEF 100%);
+	width:          100%;
+	height:         100%;
+}
+
+.text {
+	position:       absolute;
+	top:            50%;
+	left:           50%;
+	right:           0%;
+	z-index:        101;
+
+	background:		  #FFF;
+	font-size:      30px;
+	font-weight:    100;
+
+	margin:        -70px 0 0;
+	padding:        20px 25px;
+
+	border-bottom:	3px solid #000;
+}
+
+.contact {
+	position:		    absolute;
+	top:			      50%;
+	left:			      50%;
+	margin:			    50px 0 0 25px;
+}
+
+a {
+	color:			    #000;
+	border-bottom:	3px solid #DDD;
+	font-weight:	  300;
+	text-decoration: none;
+}
+
+a:hover  { border-bottom: 3px solid #00abe3; }
+a:active { border-bottom: 3px solid #000;    }
+small    { display: block; }
