@@ -1,9 +1,10 @@
 <!doctype html>
 <html>
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Chris Voll</title>
-    <link href="style.css" rel="stylesheet" type="text/css"/>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="profile" href="http://microformats.org/profile/hcard">
     <script type="text/javascript" src="http://use.typekit.com/hul1fnc.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
@@ -20,14 +21,14 @@
     </script>
   </head>
 	
-  <body>
-    <div class="text">
-      I'm Chris Voll.
-      <small>I'm the front-end web developer at <a href="http://seatgeek.com">SeatGeek</a>.</small>
-    </div>
+  <body class="vcard">
+    <section>
+      I'm <span class="fn">Chris Voll</span>.
+      <small>I'm the front-end web developer at <a href="http://seatgeek.com" class="url org">SeatGeek</a>.</small>
+    </section>
 
     <div class="contact">
-      <a href="mailto:c@cvoll.com">c@cvoll.com</a> / <a href="http://twitter.com/chrisvoll">@chrisvoll</a>
+      <a href="mailto:c@cvoll.com" class="email">c@cvoll.com</a> / <a href="http://twitter.com/chrisvoll" class="url twitter">@chrisvoll</a>
     </div>
   </body>
 	
